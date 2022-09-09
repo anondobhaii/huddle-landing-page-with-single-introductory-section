@@ -99,12 +99,13 @@ footer div i {
   header {
     height: 8em;
     line-height: 8em;
+    padding: 0 !important;
   }
   header img {
     width: 13em;
   }
   .hero {
-    height: calc(100vh - 17em);
+    height: calc(100vh - 16em);
     display: grid;
     grid-template-columns: 1.1fr 0.9fr;
     gap: 2em;
@@ -113,6 +114,7 @@ footer div i {
   }
   .hero section:nth-child(1) {
     grid-area: a;
+    padding: 0 !important;
     margin: auto;
   }
   .hero section:nth-child(2) {
@@ -128,6 +130,7 @@ footer div i {
   }
   footer {
     justify-content: flex-end;
+    height: 3em;
   }
   footer div {
     width: 2.5em;
